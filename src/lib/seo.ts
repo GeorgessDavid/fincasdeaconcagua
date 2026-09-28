@@ -35,6 +35,8 @@ export const siteConfig = {
   ogImage: "/fincas_img.jpg",
   icon: "/fincas_web_tab_logo.png",
   keywords: [
+    "Fincas",
+    "Acongacua",
     "Fincas de Aconcagua",
     "parcelas en venta",
     "lotes en venta",
