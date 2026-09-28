@@ -9,7 +9,7 @@ export default function Hero() {
     const { push } = useRouter();
 
     const goToParelas = () => {
-        return push('/#parcelas')
+        return push('/#masterplan')
     };
 
     return (
@@ -34,7 +34,7 @@ export default function Hero() {
                         <h2 className="text-2xl font-montserrat tracking-wide text-white">Viví la tranquilidad que merecés</h2>
                     </Reveal>
                     <Reveal variant="fadeUp" delay={0.34}>
-                        <button className="bg-transparent border-2 border-white text-white py-4 px-8 rounded-lg cursor-pointer hover:bg-white hover:text-primary transition-all duration-200" onClick={goToParelas}>Explorar parcelas →</button>
+                        <button className="bg-transparent border-2 border-white text-white py-4 px-8 rounded-lg cursor-pointer hover:bg-white hover:text-primary transition-all duration-200" onClick={goToParelas}>Explorar masterplan →</button>
                     </Reveal>
                 </div>
             </div>
