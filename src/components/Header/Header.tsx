@@ -17,6 +17,17 @@ export default function Header() {
         <header className="w-full h-24 gap-6 bg-white/70 lg:bg-white/50 sticky xl:fixed top-0 z-50 backdrop-blur-md shadow-md">
             <WebHeader onLogoClickFunction={redirectToHome} />
             <MobileHeader />
+            {/* <div className="bg-red-500 py-4 text-white w-full overflow-hidden">
+                <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
+                    {[0, 1].map((group) => (
+                        <div key={group} className="flex shrink-0" aria-hidden={group === 1}>
+                            {Array.from({ length: 6 }).map((_, i) => (
+                                <span key={i} className="font-bold px-8 whitespace-nowrap">ESCRITURA INMEDIATA DISPONIBLE ¡CONTÁCTENOS!</span>
+                            ))}
+                        </div>
+                    ))}
+                </div>
+            </div> */}
         </header>
     )
 }
